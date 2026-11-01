@@ -1,374 +1,163 @@
-# 👨‍💻 Shakila De Silva — Developer Portfolio
+<div align="center">
+
+# 👨‍💻 Shakila De Silva
+
+### Software Engineering Undergraduate | Full-Stack & Mobile Developer
+
+Building modern web and mobile applications with thoughtful design and practical technology.
+
+[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Website-7C3AED?style=for-the-badge)](https://shakila-portfolio-nine.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-SilvaDeShakila-181717?style=for-the-badge&logo=github)](https://github.com/SilvaDeShakila)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/shakila-de-silva-6516b225)
+
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-black?style=flat&logo=threedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=flat&logo=vercel)
+
+</div>
 
 ---
 
-## 🚀 About This Project
+## 🌐 Live Portfolio Preview
 
-This repository contains my personal developer portfolio, designed to showcase my skills, projects, technical experience, certifications, achievements, and software engineering journey.
+<div align="center">
 
-The portfolio focuses on a **modern, responsive, and professional user experience**, with interactive sections that present my technical capabilities and software projects.
+[![Portfolio Preview](./portfolio-preview.png)](https://shakila-portfolio-nine.vercel.app/)
 
-> Building practical solutions, learning continuously, and turning ideas into working software.
+**[🚀 Explore the Live Portfolio](https://shakila-portfolio-nine.vercel.app/)**
+
+</div>
 
 ---
 
 ## 👋 About Me
 
-Hi, I'm **Shakila De Silva**, an Information Technology undergraduate specializing in Software Engineering and a passionate software developer.
+Hi! I'm **Shakila De Silva**, an Information Technology undergraduate specializing in Software Engineering.
 
-I enjoy building practical **web, mobile, and full-stack applications**, working across different stages of software development — from designing user interfaces and implementing application logic to developing backend services, databases, APIs, and cloud-based solutions.
+I'm passionate about designing and developing practical software solutions across web and mobile platforms. I enjoy exploring different technologies, solving development challenges, and turning ideas into functional applications.
 
-I'm particularly interested in:
+My interests include:
 
-* 🌐 Full-Stack Web Development
-* 📱 Mobile Application Development
-* ⚙️ Backend & API Development
-* 🤖 AI-powered applications and automation
-* 🔐 Cybersecurity and secure software systems
-* 🧩 Problem solving and software architecture
-* ☁️ Cloud technologies and deployment
-* 🚀 Modern development workflows
-
----
-
-# 🛠️ Tech Stack
-
-## Frontend
-
-* React
-* Next.js
-* JavaScript
-* TypeScript
-* HTML5
-* CSS3
-* Tailwind CSS
-
-## Backend & APIs
-
-* Node.js
-* Express.js
-* REST APIs
-* API Integration
-* Backend Development
-
-## Mobile Development
-
-* Flutter
-* Dart
-* React Native
-* Android Studio
-
-## Databases & Cloud
-
-* Firebase
-* Cloud Firestore
-* MongoDB
-* MySQL
-* Supabase
-* PostgreSQL
-
-## Programming Languages
-
-* JavaScript
-* TypeScript
-* Dart
-* Python
-* Java
-* C#
-* SQL
-* HTML
-* CSS
-
-## Tools & Platforms
-
-* Git
-* GitHub
-* VS Code
-* Docker
-* Vercel
-* Firebase
-* Supabase
+- 🌐 Full-Stack Web Development
+- 📱 Mobile Application Development
+- ⚙️ Backend Development and API Integration
+- 🎨 Modern UI/UX and Interactive Experiences
+- 🤖 Artificial Intelligence and Automation
+- 🔐 Cybersecurity and Secure Software Systems
+- ☁️ Cloud Technologies and Deployment
 
 ---
 
-# 💼 Featured Projects
+## 🛠️ Technology Stack
 
-## 🗳️ VoteX — Secure Digital Voting System
+### Frontend Development
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
-A Flutter and Firebase-based digital voting platform designed to provide a secure and verified digital voting experience.
+### Backend and APIs
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 
-The system incorporates multiple authentication and verification mechanisms together with voter and election management functionality.
+### Mobile Development
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=androidstudio&logoColor=white)
 
-**Technologies:**
+### Databases and Cloud
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
 
-`Flutter` `Dart` `Firebase Authentication` `Cloud Firestore` `Firestore Security Rules`
-
-**Key Features:**
-
-* 📧 Email OTP verification
-* 👆 Fingerprint biometric authentication
-* 👤 Voter registration and verification
-* 🛡️ Admin approval workflow
-* 🗳️ Digital vote casting
-* 🚫 Duplicate-vote prevention
-* 📋 Election and candidate management
-* ☁️ Cloud-based data management
-* 🔐 Secure Firestore access control
-
-🔗 **Repository:**
-https://github.com/SilvaDeShakila/voteapp
-
----
-
-## 💰 Expense Tracker Mobile App
-
-A modern mobile expense tracking application built with Flutter to help users record, organize, and monitor their personal expenses through a simple and intuitive interface.
-
-The application focuses on practical financial management, clean mobile UI design, and efficient expense data handling.
-
-**Technologies & Languages:**
-
-`Flutter` `Dart` `Firebase` `Cloud Firestore`
-
-**Key Features:**
-
-* 💰 Add and manage expenses
-* 📊 Expense tracking and monitoring
-* 🗂️ Expense categorization
-* 📅 Date-based expense management
-* 📈 Spending overview
-* ✏️ Edit and delete expense records
-* 🔐 User authentication
-* ☁️ Cloud-based data management
-* 📱 Responsive mobile interface
-* 🎨 Modern purple & white UI design
-
-**Languages & Technologies:**
-
-* **Dart** — Primary programming language
-* **Flutter** — Cross-platform mobile framework
-* **Firebase** — Backend and cloud services
-* **Cloud Firestore** — Cloud database
-* **Material Design** — UI components and design system
+### Tools and Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ---
 
-## 💼 Smart Workspace
+## 💼 Featured Projects
 
-A modern full-stack web application built with a separated React frontend and Express backend architecture.
+A selection of web and mobile applications built while exploring different areas of software development.
 
-The project focuses on developing a structured full-stack application using modern frontend technologies, backend APIs, responsive UI development, and maintainable project organization.
+| # | Project | Description | Technologies |
+|---|---|---|---|
+| 01 | [AgroPulse](https://github.com/SilvaDeShakila/AgroPulse) | Smart agriculture and farm operations platform. | TypeScript, Web |
+| 02 | [FOODORA](https://github.com/SilvaDeShakila/FOODORA) | Full-stack food delivery platform with restaurant discovery, cart, checkout, and order tracking. | React, TypeScript, Node.js, Express |
+| 03 | [NEXORA Studio](https://github.com/SilvaDeShakila/NEXORA-STUDIO) | Creative video and photo editing platform with timeline editing and visual effects. | React, FastAPI, FFmpeg |
+| 04 | [AutoForge](https://github.com/SilvaDeShakila/autoforge) | Automotive web platform with vehicle-related features and a responsive interface. | Next.js, React, TypeScript |
+| 05 | [Smart Workspace](https://github.com/SilvaDeShakila/smart-workspace) | Full-stack workspace application with a React frontend and Express backend. | React, Vite, Node.js, Express |
+| 06 | [VoteX](https://github.com/SilvaDeShakila/voteapp) | Digital voting application with voter verification and election management. | Flutter, Dart, Firebase |
+| 07 | [Hotel Management System](https://github.com/SilvaDeShakila/HotelManagementSystem) | Hotel management system covering reservations and operational workflows. | Python, Flask, HTML |
+| 08 | [Shopora](https://github.com/SilvaDeShakila/shopora-premium-ecommerce) | E-commerce mobile application with product browsing, cart, wishlist, and themes. | Flutter, Dart, Provider, REST API |
+| 09 | [Mealora](https://github.com/SilvaDeShakila/mealora-food-delivery-app) | Food delivery mobile application with restaurant discovery, checkout, and order history. | Flutter, Dart, Provider |
+| 10 | [Skyora](https://github.com/SilvaDeShakila/skyora-weather-forecast-app) | Weather application with city search and forecast information. | Flutter, Dart, Weather API |
+| 11 | [Expense Tracker](https://github.com/SilvaDeShakila/expense-tracker-flutter) | Expense management application with cloud data and spending insights. | Flutter, Dart, Firebase, Firestore |
+| 12 | [Quizora](https://github.com/SilvaDeShakila/quizora-learning-app) | Interactive quiz application with multiple subjects, topics, and progress tracking. | Flutter, Dart, SQLite |
+| 13 | [TaskFlow](https://github.com/SilvaDeShakila/TaskFlow) | Task management application with priorities, filters, and productivity statistics. | Flutter, Dart |
+| 14 | [QuickQR](https://github.com/SilvaDeShakila/QuickQR) | QR utility application for generating, previewing, saving, and sharing QR codes. | Flutter, Dart |
+| 15 | Accessible Cooking Assistant | Accessibility-focused cooking platform with voice-guided recipe assistance. | Next.js, TypeScript, Web Audio API |
 
-**Technologies:**
+### 🌍 Available Live Demos
 
-`React` `Vite` `JavaScript` `Node.js` `Express.js` `Tailwind CSS`
-
-**Key Focus:**
-
-* 🖥️ Modern responsive interface
-* ⚛️ React component-based development
-* ⚙️ Express.js backend
-* 🔗 Client-server API communication
-* 🏗️ Full-stack architecture
-* 🚀 Modern Vite development workflow
-
-🔗 **Repository:**
-https://github.com/SilvaDeShakila/smart-workspace
-
----
-
-## 🏥 Care Expert — Healthcare Consultation App
-
-A mobile-first healthcare consultation application designed to connect users with healthcare-related services through a convenient digital platform.
-
-The application focuses on providing users with an accessible workflow for discovering services, managing appointments, and interacting with healthcare-related functionality.
-
-**Technologies:**
-
-`Flutter` `Dart` `Firebase`
-
-**Key Features:**
-
-* 🔐 User registration and login
-* 📅 Appointment scheduling
-* 🔎 Healthcare service discovery
-* 👤 User profile management
-* 💳 Secure payment workflow
-* 📱 Mobile-first interface
+- [AutoForge](https://autoforge-tawny.vercel.app/)
+- [Smart Workspace](https://smart-workspace-mocha.vercel.app/)
 
 ---
 
-## ♿ Smart Accessible Cooking Assistant
+## 🎓 Education
 
-An accessibility-focused cooking assistant designed to make recipe and cooking information easier to access for users with visual impairments.
+**Bachelor of Information Technology (Hons.) in Software Engineering**
 
-The project explores **voice-guided interaction, accessible interface design, and step-by-step cooking assistance**.
+ESU ESOFT Uni, Colombo 04, Sri Lanka
 
-**Technologies:**
+*October 2022 – Present*
 
-`Flutter` `Dart` `Figma` `Voice Interaction` `Accessibility`
+**Diploma in Information Technology**
 
-**Key Focus:**
+ESOFT Metro Campus, Kurunegala
 
-* 🎙️ Voice-guided cooking instructions
-* ♿ Accessibility-first design
-* 👆 Gesture-based interaction concepts
-* 🔊 Audio feedback
-* 📱 Mobile-friendly interface
-* 🍳 Step-by-step recipe assistance
-* ♻️ Food waste reduction concepts
+*January 2021 – June 2022*
 
----
+Merit — 1,200-hour Pearson Assured Diploma.
 
-## 🥗 NutriCare — Personalized Nutrition Planner
+**Ordinary and Advanced Level Education**
 
-A nutrition planning application designed to help users manage food and meal-related information based on individual dietary considerations.
+D.B. Welagedara Central College, Kurunegala
 
-The project explores personalized meal planning and nutrition management for users with specific dietary requirements.
-
-**Technologies:**
-
-`Flutter` `Dart` `Firebase`
-
-**Key Focus:**
-
-* 🥗 Personalized meal planning
-* 📋 Food and nutrition management
-* 👤 User-specific dietary considerations
-* 📊 Nutrition-focused information
-* 📱 Mobile application interface
+*January 2009 – August 2019*
 
 ---
 
-## 🛒 Shop With Us
+## 🏅 Certifications
 
-An e-commerce-oriented application designed to provide users with a convenient digital shopping experience.
-
-The project focuses on product browsing, shopping workflows, and managing application data through a structured software system.
-
-**Technologies:**
-
-`Java` `MySQL` `SQL` `OOP`
-
-**Key Focus:**
-
-* 🛍️ Product management
-* 🔎 Product browsing
-* 👤 User management
-* 🛒 Shopping workflow
-* 🗄️ Database integration
-* 🧩 Object-oriented software design
+| Certification | Issuer | Verification |
+|---|---|---|
+| Basics of Artificial Intelligence | UniAthena | [View Certificate](https://uniathena.com/verify/certificate?certID=2044-1332-7068) |
+| OOPs in Java | Great Learning | [View Certificate](https://www.mygreatlearning.com/certificate/UDHSAUQL) |
+| Python Project Development | Great Learning | [View Certificate](https://www.mygreatlearning.com/certificate/TGDURRIC) |
+| Foundational C# with Microsoft | Microsoft / freeCodeCamp | [View Certificate](https://www.freecodecamp.org/certification/fcc-2a0e5c2c-79a6-4fcf-a87f-386b2e9064c2/foundational-c-sharp-with-microsoft) |
+| Advanced Linux Program | FOSS Community – University of Kelaniya | [View Badge](https://badges.parchment.com/public/assertions/Q19dpZmqQXGmhsE9gdt9Ig) |
 
 ---
 
-## 💼 Job Recruitment Management System
-
-A web-based recruitment management system designed to organize interactions between job seekers, employers, and recruitment processes.
-
-The project focuses on managing job-related information through a centralized software platform.
-
-**Technologies:**
-
-`Java` `MySQL` `SQL` `HTML` `CSS`
-
-**Key Focus:**
-
-* 👤 User management
-* 💼 Job posting management
-* 🔎 Job searching
-* 📄 Application management
-* 🗄️ Relational database management
-* 🔐 Role-based functionality
-
----
-
-## 🏫 Online Homeschooling System
-
-A web-based education management system designed to support online homeschooling activities and provide a centralized platform for educational management.
-
-**Technologies:**
-
-`HTML` `CSS` `JavaScript` `SQL` `MySQL`
-
-**Key Focus:**
-
-* 👨‍🎓 Student management
-* 👩‍🏫 Teacher-related functionality
-* 📚 Educational content management
-* 📝 Learning activities
-* 🗄️ Database management
-* 🌐 Web-based learning environment
-
----
-
-## 🚗 AutoForge
-
-A web-based automotive platform focused on vehicle listings and garage-style management.
-
-**Technologies:**
-
-`React` `Supabase` `PostgreSQL` `Authentication`
-
-**Key Focus:**
-
-* 🚘 Vehicle management
-* 🔐 User authentication
-* 🗄️ Database integration
-* 🏷️ Vehicle categories
-* 🖼️ Image management
-* 📊 Dashboard functionality
-
-🔗 **Repository:**
-https://github.com/SilvaDeShakila/autoforge
-
----
-
-## 🌦️ Weather Application
-
-A responsive weather application that retrieves and displays weather information through a REST API.
-
-**Technologies:**
-
-`React` `JavaScript` `Tailwind CSS` `REST API`
-
-**Key Focus:**
-
-* 🌦️ Weather API integration
-* 🔗 REST API communication
-* 📱 Responsive UI
-* 🔄 Dynamic weather information
-* ⚛️ Component-based architecture
-
----
-
-# 📱 Mobile Development
-
-Alongside web development, I build mobile applications using modern cross-platform technologies.
-
-My mobile development experience includes:
-
-* Flutter
-* Dart
-* React Native
-* Android Studio
-* Firebase
-* REST API integration
-* Responsive mobile UI
-* Local and cloud-based data management
-* Authentication and application workflows
-
----
-
-# 🏆 Certifications & Achievements
-
-## 🎓 Certifications
-
-* **Foundational C# with Microsoft** — freeCodeCamp
-* **Basics of Artificial Intelligence** — UniAthena
-* **Object-Oriented Programming in Java** — Great Learning
-* **Python Project Development** — Great Learning
-
-## 🥇 Achievement
+## 🏆 Achievement
 
 ### 1st Runner-Up — THINKFEST 2025
 
@@ -376,65 +165,36 @@ My mobile development experience includes:
 
 ---
 
-# 📚 Currently Growing
+## 📚 Currently Growing
 
-I'm continuously expanding my knowledge and practical skills in:
+I continuously work on improving my knowledge and practical skills in:
 
-* Full-Stack Development
-* Advanced React & Next.js
-* Backend Architecture
-* REST API Development
-* Database Design
-* Firebase & Cloud Technologies
-* AI Integration
-* Cybersecurity
-* Mobile Application Development
-* DevOps & Developer Tooling
-* CI/CD Pipelines
-* Software Architecture
+- Advanced frontend and backend development
+- Software architecture and application design
+- Database design and API development
+- AI integration and automation
+- Cybersecurity and Linux technologies
+- Mobile application development
+- Cloud deployment and developer tooling
 
 ---
 
-# 📊 What I Enjoy Building
+## 📫 Connect With Me
 
-I enjoy working on projects that combine:
+I'm always interested in learning, building useful applications, and connecting with other developers.
 
-```text
-User Experience
-       +
-Software Engineering
-       +
-Modern Technologies
-       +
-Problem Solving
-       ↓
-Practical Software Solutions
-```
-
-My projects range from **mobile applications and accessibility-focused systems to secure voting platforms, full-stack web applications, healthcare solutions, expense management applications, and database-driven systems**.
+- **Portfolio:** [shakila-portfolio-nine.vercel.app](https://shakila-portfolio-nine.vercel.app/)
+- **GitHub:** [SilvaDeShakila](https://github.com/SilvaDeShakila)
+- **LinkedIn:** [Shakila De Silva](https://linkedin.com/in/shakila-de-silva-6516b225)
 
 ---
 
-# 🌐 Portfolio
+<div align="center">
 
-Explore my complete portfolio:
+### 💻 Code • Learn • Build • Improve
 
-[**Visit My Portfolio →**](https://shakila-portfolio-nine.vercel.app/)
+*Turning ideas into practical software solutions.*
 
----
+© 2026 Shakila De Silva
 
-# 📫 Connect With Me
-
-* 💼 **LinkedIn:** https://linkedin.com/in/shakila-de-silva-6516b225
-* 💻 **GitHub:** https://github.com/SilvaDeShakila
-* 🌐 **Portfolio:** https://shakila-portfolio-nine.vercel.app/
-
----
-
-<p align="center">
-  💻 <strong>Code • Learn • Build • Improve</strong>
-</p>
-
-<p align="center">
-  © 2026 Shakila De Silva
-</p>
+</div>
