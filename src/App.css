@@ -1120,7 +1120,26 @@ button {
   font-size: 22px;
 }
 
-.timeline-content p {
+
+.education-institution,
+.education-location {
+  display: block;
+}
+
+.education-institution {
+  margin-bottom: 7px;
+  color: var(--blue-bright);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.education-location {
+  margin-bottom: 15px;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.04em;
+}.timeline-content p {
   max-width: 650px;
 
   margin: 0;
@@ -1573,99 +1592,51 @@ button {
    SKILLS
 ========================= */
 
-.skills-list {
+.skill-groups {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-
-  gap: 35px 70px;
-
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
   max-width: 1050px;
 }
 
-.skill-info {
-  display: flex;
-  justify-content: space-between;
-
-  margin-bottom: 11px;
+.skill-group {
+  padding: 25px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.015);
+  transition: border-color 0.3s ease, transform 0.3s ease;
 }
 
-.skill-info span {
+.skill-group:hover {
+  border-color: var(--blue-border);
+  transform: translateY(-3px);
+}
+
+.skill-group h3 {
+  margin: 0;
   color: var(--white);
-
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.skill-info strong {
-  color: var(--blue-bright);
-
-  font-family: var(--mono);
-  font-size: 9px;
-  font-weight: 400;
-}
-
-.skill-track {
-  height: 3px;
-
-  background: rgba(255, 255, 255, 0.08);
-
-  overflow: hidden;
-}
-
-.skill-progress {
-  width: var(--skill-width);
-  height: 100%;
-
-  background: linear-gradient(
-    90deg,
-    var(--blue-dark),
-    var(--blue-bright)
-  );
-
-  transform-origin: left;
-
-  animation: skillReveal 1.4s ease both;
-}
-
-@keyframes skillReveal {
-  from {
-    transform: scaleX(0);
-  }
-
-  to {
-    transform: scaleX(1);
-  }
-}
-
-.technology-cloud {
+.skill-group .technology-cloud {
   display: flex;
   flex-wrap: wrap;
-
   gap: 9px;
-
-  margin-top: 75px;
+  margin-top: 20px;
 }
 
 .technology-cloud span {
   padding: 9px 13px;
-
   border: 1px solid var(--border);
-
   color: var(--muted);
-
   font-family: var(--mono);
   font-size: 8px;
-
-  transition:
-    color 0.3s ease,
-    border-color 0.3s ease,
-    transform 0.3s ease;
+  transition: color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 }
 
 .technology-cloud span:hover {
   color: var(--blue-bright);
-
   border-color: var(--blue-border);
-
   transform: translateY(-3px);
 }
 
@@ -1724,6 +1695,9 @@ button {
 .project-visual::before {
   content: "";
 
+  z-index: 2;
+  pointer-events: none;
+
   position: absolute;
   inset: 0;
 
@@ -1732,6 +1706,47 @@ button {
     linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
 
   background-size: 45px 45px;
+}
+
+.project-3d-viewer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  cursor: grab;
+  touch-action: pan-y;
+}
+
+.project-3d-viewer:active {
+  cursor: grabbing;
+}
+
+.project-3d-viewer canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.project-3d-hint {
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  color: rgba(255, 255, 255, 0.55);
+  pointer-events: none;
+}
+
+.project-3d-loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 11px;
+  letter-spacing: 0.12em;
 }
 
 .project-content {
@@ -2343,8 +2358,7 @@ button {
   .stat:nth-child(4) {
     border-top: 1px solid var(--border);
   }
-
-  .skills-list {
+  .skill-groups {
     grid-template-columns: 1fr;
   }
 

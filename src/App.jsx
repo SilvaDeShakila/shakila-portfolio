@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Project3D from "./Project3D";
 import "./App.css";
 
 function App() {
@@ -11,19 +12,27 @@ function App() {
 
   const closeMenu = () => setMenuOpen(false);
 
-  const skills = [
-    { name: "Frontend Development", level: 85 },
-    { name: "React & Next.js", level: 85 },
-    { name: "JavaScript & TypeScript", level: 85 },
-    { name: "Backend Development", level: 80 },
-    { name: "Database & REST APIs", level: 80 },
-    { name: "Mobile Development", level: 75 },
-    { name: "Flutter & React Native", level: 75 },
-    { name: "Git & GitHub", level: 85 },
-    { name: "UI/UX & Accessibility", level: 75 },
-    { name: "Docker & Containerization", level: 65 },
-    { name: "Python", level: 65 },
-    { name: "AI & Automation", level: 65 },
+  const skillGroups = [
+    {
+      category: "Programming Languages",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP", "Java", "C#", "Python"],
+    },
+    {
+      category: "Frontend & Backend",
+      technologies: ["React.js", "Next.js", "Node.js", "Tailwind CSS", "Django", "Flask"],
+    },
+    {
+      category: "Mobile Development",
+      technologies: ["Flutter", "Dart", "Kotlin", "React Native"],
+    },
+    {
+      category: "Data Science & Databases",
+      technologies: ["NumPy", "Pandas", "MySQL", "SQL", "MongoDB", "NoSQL"],
+    },
+    {
+      category: "Tools & Technologies",
+      technologies: ["Git", "GitHub", "Docker", "REST APIs", "Figma", "AI", "Accessibility", "Kali Linux", "Linux System Administration"],
+    },
   ];
 
   const services = [
@@ -88,16 +97,148 @@ function App() {
   const projects = [
     {
       number: "01",
-      title: "Secure Voting System",
-      category: "WEB APPLICATION",
+      title: "AgroPulse",
+      category: "AGRICULTURE / WEB PLATFORM",
       description:
-        "A blockchain-based voting system designed with security and transparency as core principles. Built with modern web technologies to provide a smooth user experience.",
-      tags: ["React", "Node.js", "MongoDB", "Blockchain"],
-      visual: "voting",
-      github: "https://github.com/SilvaDeShakila/voteapp",
+        "A smart agriculture and farm operations platform designed to digitize farm management, monitor crop activities, manage resources and support better agricultural decision-making.",
+      tags: ["TypeScript", "Farm Management", "Web"],
+      visual: "tractor",
+      github: "https://github.com/SilvaDeShakila/AgroPulse",
     },
     {
       number: "02",
+      title: "FOODORA",
+      category: "FULL-STACK WEB APPLICATION",
+      description:
+        "A premium food delivery platform for Sri Lanka featuring restaurant discovery, menus, cart management, checkout, order tracking and restaurant management tools.",
+      tags: ["React", "TypeScript", "Node.js", "Express"],
+      visual: "scooter",
+      github: "https://github.com/SilvaDeShakila/FOODORA",
+    },
+    {
+      number: "03",
+      title: "NEXORA Studio",
+      category: "VIDEO / PHOTO EDITING PLATFORM",
+      description:
+        "A modern video and photo editing studio powered by React, FastAPI and FFmpeg, featuring timeline editing, visual effects, transitions and creative media tools.",
+      tags: ["React", "FastAPI", "FFmpeg", "TypeScript"],
+      visual: "nexora",
+      github: "https://github.com/SilvaDeShakila/NEXORA-STUDIO",
+    },
+    {
+      number: "04",
+      title: "AutoForge",
+      category: "WEB APPLICATION",
+      description:
+        "A modern web application built with Next.js, React and TypeScript, featuring a responsive interface, reusable components and a scalable project structure.",
+      tags: ["Next.js", "React", "TypeScript", "Node.js"],
+      visual: "car",
+      github: "https://github.com/SilvaDeShakila/autoforge",
+      live: "https://autoforge-tawny.vercel.app",
+    },
+    {
+      number: "05",
+      title: "Smart Workspace",
+      category: "FULL-STACK WEB APPLICATION",
+      description:
+        "A workspace management platform built with a React frontend and Express backend, designed with a responsive interface and organized application architecture.",
+      tags: ["React", "Vite", "Node.js", "Express", "Tailwind CSS"],
+      visual: "laptop",
+      github: "https://github.com/SilvaDeShakila/smart-workspace",
+      live: "https://smart-workspace-mocha.vercel.app",
+    },
+    {
+      number: "06",
+      title: "VoteX",
+      category: "MOBILE APPLICATION",
+      description:
+        "A secure digital voting application built with Flutter and Firebase, featuring voter registration, email verification, biometric authentication and election management.",
+      tags: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore"],
+      visual: "ballot",
+      github: "https://github.com/SilvaDeShakila/voteapp",
+    },
+    {
+      number: "07",
+      title: "Hotel Management System",
+      category: "WEB APPLICATION",
+      description:
+        "A Flask-based hotel management system with reservation workflows, housekeeping, payment processing, invoice management and a responsive interface.",
+      tags: ["Python", "Flask", "HTML", "Web"],
+      visual: "hotel",
+      github: "https://github.com/SilvaDeShakila/HotelManagementSystem",
+    },
+    {
+      number: "08",
+      title: "Shopora",
+      category: "E-COMMERCE / MOBILE APP",
+      description:
+        "A premium e-commerce application with product browsing, shopping cart and wishlist management, persistent data, API integration and light and dark themes.",
+      tags: ["Flutter", "Dart", "Provider", "REST API"],
+      visual: "shopping",
+      github: "https://github.com/SilvaDeShakila/shopora-premium-ecommerce",
+    },
+    {
+      number: "09",
+      title: "Mealora",
+      category: "FOOD DELIVERY / MOBILE APP",
+      description:
+        "A food delivery application featuring restaurant discovery, food search, category filters, cart management, checkout, order history and simulated order tracking.",
+      tags: ["Flutter", "Dart", "Provider", "SharedPreferences"],
+      visual: "food",
+      github: "https://github.com/SilvaDeShakila/mealora-food-delivery-app",
+    },
+    {
+      number: "10",
+      title: "Skyora",
+      category: "WEATHER / MOBILE APP",
+      description:
+        "A weather forecast application providing real-time weather updates, city search, hourly forecasts, multi-day forecasts and favorite city management.",
+      tags: ["Flutter", "Dart", "Weather API", "REST API"],
+      visual: "weather",
+      github: "https://github.com/SilvaDeShakila/skyora-weather-forecast-app",
+    },
+    {
+      number: "11",
+      title: "Expense Tracker",
+      category: "FINANCE / MOBILE APP",
+      description:
+        "A Flutter expense tracking application with Firebase authentication, Cloud Firestore, expense management, analytics, search and filtering.",
+      tags: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore"],
+      visual: "finance",
+      github: "https://github.com/SilvaDeShakila/expense-tracker-flutter",
+    },
+    {
+      number: "12",
+      title: "Quizora",
+      category: "EDUCATION / MOBILE APP",
+      description:
+        "An interactive learning and quiz application offering 25 topics across five subject areas, 250 questions, progress tracking and quiz feedback.",
+      tags: ["Flutter", "Dart", "SQLite", "Education"],
+      visual: "quiz",
+      github: "https://github.com/SilvaDeShakila/quizora-learning-app",
+    },
+    {
+      number: "13",
+      title: "TaskFlow",
+      category: "PRODUCTIVITY / MOBILE APP",
+      description:
+        "A Flutter task management application with task creation, editing, priorities, search, filters, sorting and productivity statistics.",
+      tags: ["Flutter", "Dart", "Task Management", "Mobile"],
+      visual: "tasks",
+      github: "https://github.com/SilvaDeShakila/TaskFlow",
+    },
+    {
+      number: "14",
+      title: "QuickQR",
+      category: "UTILITY / MOBILE APP",
+      description:
+        "A Flutter QR code utility for generating, previewing, saving and sharing QR codes, with input validation and locally stored history.",
+      tags: ["Flutter", "Dart", "QR Generation", "Mobile"],
+      visual: "qr",
+      github: "https://github.com/SilvaDeShakila/QuickQR",
+    },
+    {
+      number: "15",
       title: "Accessible Cooking Assistant",
       category: "ACCESSIBILITY / WEB",
       description:
@@ -106,50 +247,32 @@ function App() {
       visual: "cooking",
       github: "",
     },
-    {
-      number: "03",
-      title: "Weather App",
-      category: "WEB APPLICATION",
-      description:
-        "A responsive weather application providing real-time weather data, forecasts and visualizations with a focus on performance and beautiful UI design.",
-      tags: ["React", "REST API", "Tailwind CSS", "JavaScript"],
-      visual: "weather",
-      github: "",
-    },
-    {
-      number: "04",
-      title: "AutoForge",
-      category: "AI / AUTOMATION",
-      description:
-        "An AI-powered platform designed to turn ideas into powerful digital workflows and automated experiences.",
-      tags: ["AI", "Automation", "Web"],
-      visual: "autoforge",
-      github: "https://github.com/SilvaDeShakila/autoforge",
-    },
-    {
-  number: "05",
-  title: "Smart Workspace",
-  category: "WEB APPLICATION",
-  description:
-    "A smart workspace application designed to provide an organized and productive digital environment with modern features and a clean user experience.",
-  tags: ["React", "JavaScript", "Web"],
-  visual: "cooking",
-  github: "https://github.com/SilvaDeShakila/smart-workspace",
-},
   ];
 
   const education = [
     {
-      year: "CURRENT",
-      title: "Software Engineering",
+      year: "10 OCT 2022 – PRESENT",
+      title: "Bachelor of Information Technology (Hons.) in Software Engineering",
+      institution: "ESU ESOFT Uni",
+      location: "Colombo 04, Sri Lanka",
       description:
-        "Currently developing skills across software engineering, web development, mobile development, databases and modern application technologies.",
+        "Building strong foundations in software engineering, database design, and web and mobile application development. Completing individual and group projects that apply theoretical knowledge to practical IT solutions while developing problem-solving, teamwork and innovative thinking.",
     },
     {
-      year: "FOCUS",
-      title: "Full-Stack & Mobile Development",
+      year: "04 JAN 2021 – 08 JUN 2022",
+      title: "Diploma in Information Technology",
+      institution: "ESOFT Metro Campus",
+      location: "Kurunegala, Sri Lanka",
       description:
-        "Focused on building practical digital products using modern frontend, backend and mobile technologies.",
+        "Completed with Merit overall grade. A 1,200-hour Assured Diploma certified by Pearson, covering Software Engineering, Python, C# and SQL databases. Final project involved system design, technical documentation and implementation.",
+    },
+    {
+      year: "05 JAN 2009 – 02 AUG 2019",
+      title: "Ordinary and Advanced Level Education",
+      institution: "D.B. Welagedara Central College",
+      location: "Kurunegala, Sri Lanka",
+      description:
+        "Completed school education at D.B. Welagedara Central College.",
     },
   ];
 
@@ -226,7 +349,17 @@ function App() {
       credential:
         "https://www.freecodecamp.org/certification/fcc-2a0e5c2c-79a6-4fcf-a87f-386b2e9064c2/foundational-c-sharp-with-microsoft",
     },
-  ];
+    {
+      number: "05",
+      title: "Advanced Linux Program",
+      issuer: "FOSS Community - University of Kelaniya",
+      year: "DEC 2025",
+      credentialId: "693ef7917d7b8f2d3b7ac889",
+      description:
+        "Advanced Linux training covering Kali Linux and Linux System Administration.",
+      credential:
+        "https://badges.parchment.com/public/assertions/Q19dpZmqQXGmhsE9gdt9Ig",
+    },  ];
 
   return (
     <div className="app">
@@ -455,7 +588,7 @@ function App() {
 
           <div className="stats-row">
             <div className="stat">
-              <strong>04+</strong>
+              <strong>15+</strong>
               <span>Featured Projects</span>
             </div>
 
@@ -504,21 +637,14 @@ function App() {
 
                 <div className="timeline-content">
                   <h3>{item.title}</h3>
+                  <span className="education-institution">{item.institution}</span>
+                  <span className="education-location">{item.location}</span>
                   <p>{item.description}</p>
                 </div>
               </div>
             ))}
           </div>
-
-          <div className="education-note">
-            <span>+</span>
-
-            <p>
-              University / institute details can be added here once you want
-              them displayed publicly.
-            </p>
-          </div>
-        </section>
+</section>
 
         {/* ACHIEVEMENTS */}
         <section id="achievements" className="section">
@@ -697,43 +823,17 @@ function App() {
             </p>
           </div>
 
-          <div className="skills-list">
-            {skills.map((skill) => (
-              <div className="skill-item" key={skill.name}>
-                <div className="skill-info">
-                  <span>{skill.name}</span>
-                  <strong>{skill.level}%</strong>
-                </div>
-
-                <div className="skill-track">
-                  <div
-                    className="skill-progress"
-                    style={{
-                      "--skill-width": `${skill.level}%`,
-                    }}
-                  ></div>
+          <div className="skill-groups">
+            {skillGroups.map((group) => (
+              <div className="skill-group" key={group.category}>
+                <h3>{group.category}</h3>
+                <div className="technology-cloud">
+                  {group.technologies.map((technology) => (
+                    <span key={technology}>{technology}</span>
+                  ))}
                 </div>
               </div>
             ))}
-          </div>
-
-          <div className="technology-cloud">
-            <span>React</span>
-            <span>Next.js</span>
-            <span>Node.js</span>
-            <span>Flutter</span>
-            <span>React Native</span>
-            <span>JavaScript</span>
-            <span>TypeScript</span>
-            <span>Tailwind CSS</span>
-            <span>MongoDB</span>
-            <span>Python</span>
-            <span>Docker</span>
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>REST API</span>
-            <span>AI</span>
-            <span>Accessibility</span>
           </div>
         </section>
 
@@ -755,9 +855,8 @@ function App() {
             </div>
 
             <p>
-              A selection of projects exploring software engineering,
-              accessibility, APIs, blockchain, AI and modern application
-              development.
+              A collection of web and mobile applications focused on practical problem-solving,
+              modern technologies, accessibility and user-friendly experiences.
             </p>
           </div>
 
@@ -765,47 +864,7 @@ function App() {
             {projects.map((project) => (
               <article className="project-card" key={project.number}>
                 <div className={`project-visual ${project.visual}`}>
-                  {project.visual === "voting" && (
-                    <>
-                      <div className="voting-orbit"></div>
-                      <div className="voting-center">SECURE</div>
-                      <div className="voting-node node-a"></div>
-                      <div className="voting-node node-b"></div>
-                      <div className="voting-node node-c"></div>
-                    </>
-                  )}
-
-                  {project.visual === "cooking" && (
-                    <div className="cooking-ui">
-                      <span>VOICE ASSISTANT</span>
-                      <strong>Let&apos;s cook.</strong>
-
-                      <div className="voice-bars">
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                      </div>
-                    </div>
-                  )}
-
-                  {project.visual === "weather" && (
-                    <div className="weather-ui">
-                      <span>WEATHER</span>
-                      <strong>24°</strong>
-                      <small>Beautifully simple.</small>
-                    </div>
-                  )}
-
-                  {project.visual === "autoforge" && (
-                    <div className="autoforge-ui">
-                      <span>AI AUTOMATION</span>
-                      <strong>AUTOFORGE</strong>
-                      <div className="forge-line"></div>
-                      <small>IDEA → WORKFLOW → RESULT</small>
-                    </div>
-                  )}
+                  <Project3D type={project.visual} title={project.title} />
                 </div>
 
                 <div className="project-content">
@@ -825,7 +884,7 @@ function App() {
                   </div>
 
                   <div className="project-actions">
-                    <a href="#contact">View Project ↗</a>
+                    {project.live ? (<a href={project.live} target="_blank" rel="noreferrer">Live Preview ↗</a>) : null}
 
                     {project.github ? (
                       <a
